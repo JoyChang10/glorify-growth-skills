@@ -1,0 +1,7 @@
+# Runtime dependencies for scraping and enrichment.
+# The framework extraction and local search tools otherwise use only Python's standard library.
+requests>=2.31,<3
+python-dotenv>=1.0,<2
+beautifulsoup4>=4.12,<5
+lxml>=5.0,<7
+cloudscraper>=1.2.71,<2

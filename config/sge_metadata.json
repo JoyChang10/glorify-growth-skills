@@ -1,0 +1,204 @@
+{
+  "article": {
+    "url": "",
+    "title": "",
+    "content": ""
+  },
+
+  "metadata": {
+
+    "sge_category": {
+      "type": "string",
+      "allowed_values": [
+        "Strategy",
+        "Format",
+        "Trend",
+        "Opinion",
+        "Newcomer",
+        "Case Studies",
+        "Growth Lab"
+      ]
+    },
+
+
+    "knowledge_type": {
+      "type": "array",
+      "allowed_values": [
+        "viral_growth",
+        "content_strategy",
+        "ugc_strategy",
+        "creator_marketing",
+        "paid_ads",
+        "growth_loops",
+        "retention",
+        "community",
+        "positioning",
+        "product_marketing",
+        "conversion",
+        "app_store_growth",
+        "brand_building",
+        "copywriting",
+        "influencer_strategy"
+      ]
+    },
+
+
+    "platform": {
+      "type": "array",
+      "allowed_values": [
+        "TikTok",
+        "Instagram",
+        "YouTube",
+        "Reddit",
+        "App Store",
+        "Google Play",
+        "Email",
+        "Community",
+        "Offline",
+        "Website",
+        "Other"
+      ]
+    },
+
+
+    "industry": {
+      "type": "array",
+      "allowed_values": [
+        "consumer_app",
+        "social_app",
+        "mobile_game",
+        "wearable",
+        "health",
+        "fitness",
+        "wellness",
+        "faith",
+        "education",
+        "ecommerce",
+        "saas",
+        "creator_economy",
+        "media",
+        "marketplace",
+        "other"
+      ]
+    },
+
+
+    "growth_stage": {
+      "type": "string",
+      "allowed_values": [
+        "pre_launch",
+        "early_growth",
+        "scaling",
+        "mature",
+        "unknown"
+      ]
+    },
+
+
+    "growth_problem": {
+      "type": "array",
+      "allowed_values": [
+        "user_acquisition",
+        "brand_awareness",
+        "content_creation",
+        "organic_growth",
+        "paid_growth",
+        "conversion",
+        "retention",
+        "community_building",
+        "creator_distribution",
+        "market_positioning"
+      ]
+    },
+
+
+    "frameworks": [
+      {
+        "name": "",
+        "description": "",
+        "when_to_use": "",
+        "example": ""
+      }
+    ],
+
+
+    "key_principle": "",
+
+
+    "article_summary": "",
+
+
+    "companies_mentioned": [
+      {
+        "name": "",
+        "role": "",
+        "lesson": ""
+      }
+    ],
+
+
+    "content_patterns": [
+      {
+        "name": "",
+        "description": "",
+        "example": ""
+      }
+    ],
+
+
+    "metrics_affected": {
+      "type": "array",
+      "allowed_values": [
+        "views",
+        "engagement",
+        "followers",
+        "click_through_rate",
+        "conversion_rate",
+        "install_rate",
+        "retention_rate",
+        "revenue",
+        "brand_awareness"
+      ]
+    },
+
+
+    "usable_for": {
+      "type": "array",
+      "allowed_values": [
+        "content_ideation",
+        "ugc_script_generation",
+        "tiktok_analysis",
+        "instagram_analysis",
+        "paid_ad_analysis",
+        "competitor_analysis",
+        "trend_analysis",
+        "growth_experiment",
+        "landing_page_copy",
+        "email_copy",
+        "community_management"
+      ]
+    },
+
+
+    "evergreen_score": {
+      "type": "integer",
+      "range": "1-10",
+      "description": "How long this knowledge remains useful"
+    },
+
+
+    "glorify_relevance": {
+      "type": "integer",
+      "range": "1-10",
+      "description": "How useful this article is for Glorify Ring growth team"
+    },
+
+
+    "confidence_score": {
+      "type": "integer",
+      "range": "1-100",
+      "description": "LLM confidence in classification"
+    }
+
+  }
+}

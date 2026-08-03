@@ -1,0 +1,80 @@
+{
+  "article": {
+    "url": "https://www.socialgrowthengineers.com/confused-look",
+    "title": "Confused Look",
+    "content": "PASTE THE FULL ARTICLE CONTENT HERE"
+  },
+
+  "metadata": {
+    "sge_category": "Format",
+
+    "knowledge_type": [
+      "content_strategy",
+      "viral_growth"
+    ],
+
+    "platform": [
+      "TikTok",
+      "Instagram"
+    ],
+
+    "industry": [
+      "consumer_app",
+      "creator_economy"
+    ],
+
+    "growth_stage": "early_growth",
+
+    "growth_problem": [
+      "content_creation",
+      "organic_growth",
+      "brand_awareness"
+    ],
+
+    "frameworks": [
+      {
+        "name": "Confused Look Content Format",
+
+        "description": "A content format where the creator uses a facial expression or reaction of confusion to create curiosity and encourage viewers to continue watching.",
+
+        "when_to_use": "When a brand wants to create curiosity-driven short-form content with a strong first-second hook.",
+
+        "example": "A creator sees an unexpected product feature and reacts with a confused expression before revealing the explanation."
+      }
+    ],
+
+    "key_principle": "Strong emotional reactions can create curiosity gaps that increase watch time and engagement.",
+
+    "article_summary": "This article explains a short-form content pattern based on a confused facial reaction, showing how simple human emotions can be used as attention hooks.",
+
+    "companies_mentioned": [],
+
+    "content_patterns": [
+      {
+        "name": "Reaction-based hook",
+
+        "description": "Use a recognizable human reaction before explaining the context.",
+
+        "example": "Creator looks confused first, then reveals the surprising reason."
+      }
+    ],
+
+    "metrics_affected": [
+      "views",
+      "engagement",
+      "watch_time"
+    ],
+
+    "usable_for": [
+      "content_ideation",
+      "ugc_script_generation",
+      "tiktok_analysis"
+    ],
+
+    "evergreen_score": 8,
+
+    "glorify_relevance": 7,
+
+    "confidence_score": 80
+  }
+}

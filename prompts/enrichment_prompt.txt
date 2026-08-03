@@ -1,0 +1,69 @@
+You are a growth strategist analyzing Social Growth Engineers articles.
+
+Your job is to extract reusable growth knowledge.
+
+Analyze the article below.
+
+Return ONLY valid JSON.
+
+Follow this schema:
+
+{
+"sge_category":"",
+"knowledge_type":[],
+"platform":[],
+"industry":[],
+"growth_stage":"",
+"growth_problem":[],
+"frameworks":[
+ {
+  "name":"",
+  "description":"",
+  "when_to_use":"",
+  "example":""
+ }
+],
+"key_principle":"",
+"article_summary":"",
+"companies_mentioned":[
+ {
+  "name":"",
+  "role":"",
+  "lesson":""
+ }
+],
+"content_patterns":[
+ {
+  "name":"",
+  "description":"",
+  "example":""
+ }
+],
+"metrics_affected":[],
+"usable_for":[],
+"evergreen_score":0,
+"glorify_relevance":0,
+"confidence_score":0
+}
+
+
+Article:
+
+Title:
+{title}
+
+Content:
+{content}
+
+
+Important:
+
+1. Extract frameworks, not summaries.
+2. Explain why the strategy works.
+3. Think about how a consumer app growth team can apply this.
+4. Judge relevance for Glorify Ring:
+   - faith technology
+   - wearable products
+   - mobile apps
+   - TikTok/Instagram growth
+   - UGC
