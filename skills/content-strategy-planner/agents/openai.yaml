@@ -1,0 +1,4 @@
+interface:
+  display_name: "Glorify Content Strategy Planner"
+  short_description: "Plan evidence-backed social content for Glorify Ring."
+  default_prompt: "Use $content-strategy-planner to create a Glorify Ring TikTok and Instagram content plan."

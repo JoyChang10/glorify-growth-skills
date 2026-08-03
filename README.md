@@ -32,7 +32,7 @@ Requires Python 3.10 or later.
 
 ```powershell
 git clone <YOUR_REPOSITORY_URL>
-cd socialgrowthengineers
+cd <REPOSITORY_FOLDER>
 
 python -m venv venv
 venv\Scripts\Activate.ps1
@@ -147,12 +147,43 @@ python scripts/search_frameworks.py `
 
 ## Codex skills
 
+Clone this repository before installing either skill. The skills retrieve local
+frameworks and article evidence from this project, so installing only a skill
+folder is not enough.
+
 The repository keeps the source versions of both Glorify skills under `skills/`:
 
 - `content-strategy-planner`: answers “What content should we make?”
 - `creative-brief-generator`: answers “How exactly do we make this video?”
 
-Open this repository as the active Codex workspace before invoking either skill, so the local retrieval commands resolve correctly.
+
+### Install the skills in Codex (Windows)
+
+1. Clone the repository and install dependencies using the [Setup](#setup) steps.
+2. Copy the complete skill folders into Codex's global skills directory:
+
+```powershell
+Copy-Item `
+  ".\skills\content-strategy-planner" `
+  "E:\Codex\.codex\skills\content-strategy-planner" `
+  -Recurse -Force
+
+Copy-Item `
+  ".\skills\creative-brief-generator" `
+  "E:\Codex\.codex\skills\creative-brief-generator" `
+  -Recurse -Force
+```
+
+3. Restart or refresh Codex so both skills appear in the skill menu.
+4. Open the cloned repository as the active Codex workspace before invoking a skill. This lets it access:
+
+```text
+data/sge_articles_enriched.jsonl
+knowledge/frameworks.json
+scripts/search_knowledge.py
+```
+
+Invoke either skill in Codex:
 
 ```text
 $content-strategy-planner
@@ -164,25 +195,13 @@ $creative-brief-generator
 Turn this Glorify Ring idea into a creator-ready 30-second TikTok/Reel script: ...
 ```
 
-To make skills appear in Codex’s global skill dropdown, copy each complete skill folder into your Codex skills directory. Keep this repository copy as the source of truth.
+### Update installed skills
 
-## GitHub checklist
-
-Before your first commit:
-
-1. Add a `.gitignore` that excludes `.env`, API-key files, `venv/`, Python caches, editor files, temporary files, and enrichment error logs.
-2. Rotate any API key that may have been exposed in terminals, logs, or a previous commit.
-3. Confirm `git status` does not list any secret or local-environment files.
-4. Decide whether the data files belong in a private repository or need to be supplied separately.
-5. Commit the scripts, configuration, prompts, framework library, skills, `requirements.txt`, `.gitignore`, and this README.
-
-Example:
+Keep the repository copy as the source of truth. To get the latest version,
+pull the repository, rerun the two copy commands above, then refresh Codex:
 
 ```powershell
-git init
-git add .
-git status
-git commit -m "Initial SGE knowledge system"
+git pull
 ```
 
 ## Security
