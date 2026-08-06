@@ -1,0 +1,4 @@
+interface:
+  display_name: "Glorify Campaign Growth Strategist"
+  short_description: "Turn campaign results into the next content tests."
+  default_prompt: "Use $campaign-growth-strategist to decide what to scale, iterate, or stop after this Glorify campaign."

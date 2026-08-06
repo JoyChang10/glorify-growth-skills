@@ -1,9 +1,9 @@
 ---
-name: creative-brief-generator
+name: content-brief-generator
 description: Turn a Glorify Ring TikTok or Instagram Reel idea into a creator-ready creative brief, shot list, hooks, script, CTA, and test variants. Use after a content strategy exists or whenever a growth team needs to make a specific short-form video, including UGC, creator, faith-storytelling, product-demo, awareness, pre-order, or conversion creative.
 ---
 
-# Glorify Creative Brief Generator
+# Glorify Content Brief Generator
 
 Turn one content idea into an immediately filmable TikTok/Reel brief. Retrieve local SGE framework principles and article examples before writing the brief. Use them as evidence and inspiration, never as copy-paste templates or performance guarantees.
 

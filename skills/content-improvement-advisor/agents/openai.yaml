@@ -1,0 +1,4 @@
+interface:
+  display_name: "Glorify Content Improvement Advisor"
+  short_description: "Improve Glorify short-form creative with SGE evidence."
+  default_prompt: "Use $content-improvement-advisor to improve this Glorify Ring TikTok or Reel creative."

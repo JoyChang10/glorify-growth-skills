@@ -1,0 +1,4 @@
+interface:
+  display_name: "Glorify Content Brief Generator"
+  short_description: "Turn Glorify Ring ideas into creator-ready video briefs."
+  default_prompt: "Use $content-brief-generator to turn a Glorify Ring idea into a TikTok or Reel script."
